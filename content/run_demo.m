@@ -14,7 +14,7 @@ handle = figure; hold on
 text(20,20,'Please press Enter to continue');
 count = 1;
 
-folder = 'car-right';
+folder = 'bearHead';
 images = get_examples(folder);
 for i = 1:4
     subplot(nrow,ncol,count);
